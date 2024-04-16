@@ -1,0 +1,45 @@
+@media screen and (max-width: 992px){
+    .miCarrusel .imgCarrusel{
+        padding: 0;
+    }
+}
+@media screen and (max-width: 768px){
+    legend{
+        margin-left: 35px;
+    }
+    .formContent{
+        margin: 0px 100px 0px 100px;
+    }
+}
+@media screen and (max-width: 576px){
+    legend{
+        margin-left: 15px;
+    }
+    .formContent{
+        margin: 0px 50px 0px 50px;
+    }
+}
+@media screen and (max-width: 470px){
+    .textoCarrusel{
+        font-size: x-small;
+    }
+    .h5Carrusel{
+        font-size: x-small;
+        font-weight: bold;
+    }
+    legend{
+        margin-left: 5px;
+    }
+    .formContent{
+        margin: 0px 10px 0px 10px;
+    }
+}
+@media screen and (max-width: 330px){
+    .textoCarrusel{
+        font-size: xx-small;
+    }
+    .h5Carrusel{
+        font-size: xx-small;
+        font-weight: bold;
+    }
+}
