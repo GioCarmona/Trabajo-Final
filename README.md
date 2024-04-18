@@ -12,6 +12,7 @@ Curso web compuesto por:
 Página de Bienvenida: Presenta información inicial básica del curso, Definición del programa de entrenamiento, estructura modular y contenido.
 Módulos: Todos los módulos presentan el contenido correspondiente con una estructura de cuatro componentes (Introducción, desarrollo temático, actividades y evaluación)
 Soporte: Formulario de contacto para reportar errores de funcionamiento.
+Imagenes sin regalias por cortesia de https://pixabay.com/es/
 
 #AUTOR
 Desarrollado por ArachneCol Software - Giovanni Carmona

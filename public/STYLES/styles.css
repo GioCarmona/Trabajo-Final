@@ -119,7 +119,7 @@ h1{
     display: flex;
     align-items: center;
     justify-content: top;
-    background: linear-gradient(to Right,rgb(0, 0, 0, .75),rgb(0, 0, 0, .1)),url(/ASSETS/IMG/Banner.jpg);
+    background: linear-gradient(to Right,rgb(0, 0, 0, .75),rgb(0, 0, 0, .1)),url(/public/ASSETS/IMG/Banner.jpg);
     background-size: cover;
     background-position: center;
 }

@@ -1,0 +1,20 @@
+{
+  "name": "trabajo-final",
+  "version": "1.0.0",
+  "description": "Curso web compuesto por:\r *Pagina de bienvenida\r *Módulo 1 - Introducción\r *Módulo 2 - Habilidades Autonomía\r *Módulo 3 - Habilidades para la buena gestión del tiempo\r *Módulo 4 - Uso de herramientas teconológicas\r *Soporte",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "keywords": [],
+  "author": "Giovanni Andres Carmona",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "mongoose": "^8.3.2",
+    "nodemon": "^3.1.0"
+  }
+}
