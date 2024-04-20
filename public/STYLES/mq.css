@@ -4,6 +4,7 @@
     }
 }
 @media screen and (max-width: 768px){
+    }
     legend{
         margin-left: 35px;
     }
@@ -33,8 +34,14 @@
     .formContent{
         margin: 0px 10px 0px 10px;
     }
+    .dropdown-menu{
+        font-size: x-small;
+    }
 }
 @media screen and (max-width: 330px){
+    .dropdown-menu{
+        font-size: xx-small;
+    }
     .textoCarrusel{
         font-size: xx-small;
     }
