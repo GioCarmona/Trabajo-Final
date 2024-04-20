@@ -112,35 +112,33 @@ h1{
     color: white;
 }
 
-/* PÁGINA SOPORTE */ /* Imagen de fondo y texto con contraste */
-.wrap{    
-    width: 100%;
-    height: 50vh;
-    display: flex;
-    align-items: center;
-    justify-content: top;
-    background: linear-gradient(to Right,rgb(0, 0, 0, .75),rgb(0, 0, 0, .1)),url(/public/ASSETS/IMG/Banner.jpg);
-    background-size: cover;
-    background-position: center;
-}
-.wrap-texto{
-    padding-left: 25px;
-    color: rgb(255, 255, 255);
-    text-align: left;
-    width: 50%;
-}
-.pagSoporte{
-    background-color: rgb(226, 220, 220);
-}
-legend{    
-    margin-left: 70px;
-    text-decoration: underline;
-    font-weight: 600;
-}
-.formContent{
-    margin: 0px 200px 0px 200px;
-}
-#btnEnviar:hover{
-    color: white;
-    background-color: rgba(11, 48, 66, 255);
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

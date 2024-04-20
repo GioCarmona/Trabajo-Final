@@ -1,0 +1,68 @@
+.navbar{
+    background-color: rgba(11, 48, 66, 255);    
+}
+.nav-link{
+    color: white;
+}
+.nav-link:hover{
+    background-color: rgb(195, 192, 192);
+    padding: 3px 3px 3px 3px;
+}
+span{
+    color: white;
+}
+.menuDespl{
+    background-color: white;
+}
+.dropdown-menu{
+    background-color: white;  
+    border-color: rgba(11, 48, 66, 255);
+}
+.dropdown-item{
+    font-weight: bold;
+color: rgba(11, 48, 66, 255);
+}
+.wrap1{    
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: top;
+    background: linear-gradient(to Right,rgb(0, 0, 0, .75),rgb(0, 0, 0, .1)),url(/public/ASSETS/IMG/Banner.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.wrap-texto{
+    padding-left: 25px;
+    color: rgb(255, 255, 255);
+    text-align: left;
+    width: 50%;
+}
+.pagSoporte{
+    background-color: rgb(226, 220, 220);
+}
+legend{    
+    margin-left: 70px;
+    text-decoration: underline;
+    font-weight: 600;
+}
+.formContent{
+    margin: 0px 200px 0px 200px;
+}
+#btnEnviar:hover{
+    color: white;
+    background-color: rgba(11, 48, 66, 255);
+}
+.containerFooter{
+    padding: 10px 20px 10px 20px;
+    background-color: rgba(11, 48, 66, 255);
+}
+.derechos{
+    color: white;
+}
+.footerText{
+    color: white;
+}
+.fa-brands{
+    color: white;
+}
