@@ -4,7 +4,6 @@
     }
 }
 @media screen and (max-width: 768px){
-    }
     legend{
         margin-left: 35px;
     }
@@ -21,6 +20,9 @@
     }
 }
 @media screen and (max-width: 470px){
+    .botonCurso a{
+        font-size: small;
+    }
     .textoCarrusel{
         font-size: x-small;
     }
@@ -36,6 +38,11 @@
     }
     .dropdown-menu{
         font-size: x-small;
+    }
+}
+@media screen and (max-width: 380px){
+    .botonCurso a{
+        font-size: xx-small;
     }
 }
 @media screen and (max-width: 330px){
