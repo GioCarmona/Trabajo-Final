@@ -10,4 +10,6 @@
 }
 .inicioBox{
     background-color: rgba(11, 48, 66, 0.8);
+    border-style: double;
+    border-color: white;
 }
