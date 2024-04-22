@@ -1,10 +1,13 @@
-.wrap2{    
+.wrap3{    
     width: 100%;
-    height: 90vh;
+    height: 100vh;
     display: flex;
     align-items: center;
     justify-content: top;
-    background: linear-gradient(to Right,rgb(0, 0, 0, .75),rgb(0, 0, 0, .1)),url(/public/ASSETS/IMG/CursosVirtuales.jpg);
+    background: linear-gradient(to Right,rgb(0, 0, 0, .75),rgb(0, 0, 0, .1)),url(/public/ASSETS/IMG/Herramientastecnológicas.jpg);
     background-size: cover;
     background-position: center;
+}
+.inicioBox{
+    background-color: rgba(11, 48, 66, 0.8);
 }

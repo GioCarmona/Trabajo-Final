@@ -9,5 +9,7 @@
     background-position: center;
 }
 .inicioBox{
-    background-color: rgba(11, 48, 66, 255);
+    background-color: rgba(11, 48, 66, 0.8);
+    border-color: white;
+    
 }

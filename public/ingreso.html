@@ -10,12 +10,11 @@
     <title>Login PEHTR</title>
 </head>
 <body class="wrap2 d-flex align-items-center justify-content-center vh-100">
-    <div class="inicioBox p-5 rounded-5 text-light" style="height: 30rem">
+    <div class="inicioBox p-5 rounded-5 text-light" style="height: 30rem" >
         <div class="d-flex justify-content-center">
-        <a href="./index.html"><img src="./ASSETS/IMG/Logo ArachneCol cuadrado.png" alt="LoginIcon" style="height: 7rem"></a>
+        <a href="./index.html"><img src="./ASSETS/IMG/Logo ArachneCol cuadrado.png" alt="LoginIcon" style="height: 3rem"></a>
         </div>
         <div class="d-flex justify-content-center"><h3>Inicio de sesión</h3></div>
-        <br>
         <div class="input-group justify-content-center">
             <div>
                 <i class="fa-regular fa-circle-user input-group-text"></i> 
@@ -33,6 +32,7 @@
                 <input type="checkbox">
                 <div>Recordar credenciales</div>
             </div>
+            <br>
             <div class="d-flex justify-content-center">
             <button>Ingresa</button>
             </div>
@@ -45,11 +45,26 @@
         <div class="d-flex justify-content-center">
             <a href="./registro.html">Registrate aqui</a>
         </div>
+        <br>
+        <div class="d-flex justify-content-center">            
+                <a class="nav-link dropdown-toggle" href="#contenido" role="button"
+                    data-bs-toggle="dropdown" aria-expanded="false">
+                    <i class="fa-solid fa-gear"></i>
+                </a>
+                <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="./soporte.html" target="_blank">Soporte</a>
+                    </li>
+                    <hr>
+                    <li><a class="dropdown-item" href="./admin.html" target="_blank">Admin</a></li>
+                </ul>
+            </li>
+        </div>
     </div>
     
 <!-- Fomulario debe tener:
 - Correo electrónico
 - Contraseña 
 - Botón de registro-->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"> </script>
 </body>
 </html>
