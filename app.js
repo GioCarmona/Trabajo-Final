@@ -3,6 +3,7 @@ import express from 'express';
 import path from 'path';
 import dotenv from 'dotenv';
 import conexionMongo from './src/config/db.js';
+import usuarioRouter from './src/routes/user.routes.js';
 
 // 2. Configurar el servidor
 const app = express();
@@ -15,11 +16,13 @@ dotenv.config();
 
 conexionMongo();
 
-// 3. Establecer la conexión no nuestro FRONT
+// 3. Establecer la conexión con nuestro FRONT
 const rutaPublica = path.join(process.cwd(), 'public');
 app.use(express.static(rutaPublica));
 
 app.use(express.json());
+
+app.use('/api', usuarioRouter);
 
 //Especificar que vamos a acceder a nuestro index.html
 
@@ -32,3 +35,5 @@ app.get('/', (req, res) => {
 app.listen(puerto, () => {
     console.log(`El servidor está escuchando en http://localhost:${puerto}`);
 });
+
+
