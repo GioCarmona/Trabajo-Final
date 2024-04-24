@@ -1,14 +1,47 @@
+@media screen and (max-width: 1150px){
+    .card{
+        margin-bottom: 15px;
+    }
+}
 @media screen and (max-width: 992px){
     .miCarrusel .imgCarrusel{
         padding: 0;
     }
+    .card{
+        margin-bottom: 15px;
+    }
+    .dropdown-item{
+        font-size: small;
+    }
+}
+@media screen and (max-width: 856px){
+    .dropdown-item{
+        font-size: x-small;
+    }
 }
 @media screen and (max-width: 768px){
+    .navbar-brand{
+        display: none;
+    }
     legend{
         margin-left: 35px;
     }
     .formContent{
         margin: 0px 100px 0px 100px;
+    }
+    .card{
+        margin-bottom: 15px;
+    }
+    .menuDespl{
+        margin-top: 20px;
+    }
+}
+@media screen and (max-width: 632px){
+    .dropdown-item{
+        font-size: xx-small;
+    }
+    .botonCurso{
+        width: 25%;
     }
 }
 @media screen and (max-width: 576px){
@@ -19,10 +52,15 @@
         margin: 0px 50px 0px 50px;
     }
 }
-@media screen and (max-width: 470px){
-    .botonCurso a{
-        font-size: small;
+@media screen and (max-width: 531px){
+    .botonCurso{
+        width: 30%;
     }
+}
+@media screen and (max-width: 465px){ 
+    .botonCurso{
+        width: 35%;
+    }    
     .textoCarrusel{
         font-size: x-small;
     }
@@ -40,13 +78,26 @@
         font-size: x-small;
     }
 }
-@media screen and (max-width: 380px){
-    .botonCurso a{
-        font-size: xx-small;
+@media screen and (max-width: 417px){
+    .botonCurso{
+        width: 40%;
+    }
+}
+@media screen and (max-width: 381px){
+    .botonCurso{
+        width: 45%;        
+    }
+}
+@media screen and (max-width: 353px){
+    .botonCurso{
+        width: 50%;        
     }
 }
 @media screen and (max-width: 330px){
     .dropdown-menu{
+        font-size: xx-small;
+    }
+    .dropdown-item{
         font-size: xx-small;
     }
     .textoCarrusel{
@@ -55,5 +106,53 @@
     .h5Carrusel{
         font-size: xx-small;
         font-weight: bold;
+    }
+    .card-body{
+        font-size: x-small;
+    }
+    h4{
+        font-size: x-small;
+        font-weight: bold;
+    }
+    .botonCurso{
+        font-size: xx-small;
+    }
+}
+@media screen and (max-width: 317px){
+    .textoCarrusel{
+        display: none;
+    }
+    .dropdown-item{
+        font-size: xx-small;
+    }
+
+}
+@media screen and (max-width: 223px){
+    .botonCurso{
+        width: 100%;
+    }
+    .carousel-indicators{
+        display: none;
+    }
+    .h5Carrusel{
+        display: none;
+    }
+    h3{
+        font-size: xx-small;
+        font-weight: bold;
+    }
+    h2{
+        font-size: xx-small;
+        font-weight: bold;
+    }
+    h1{
+        font-size: x-small;
+        font-weight: bold;
+    }
+    p{
+        font-size: xx-small;
+    }
+    .derechos{
+        font-size: x-small;
     }
 }
