@@ -1,0 +1,6 @@
+.inicioCurso{
+    background-image: linear-gradient(to Right,rgb(0, 0, 0, .6),rgb(0, 0, 0, .75)),url(../ASSETS/IMG/Teletrabajo.jpg);
+}
+.inicioText{
+    color: white;
+}

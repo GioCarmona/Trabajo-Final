@@ -27,7 +27,7 @@ app.use('/api', usuarioRouter);
 //Especificar que vamos a acceder a nuestro index.html
 
 app.get('/', (req, res) => {
-    res.sendFile(path.join(rutaPublica, 'index.html'))
+    res.sendFile(path.join(rutaPublica, 'inicioCurso.html'))
 });
 
 

@@ -1,0 +1,1 @@
+window.open("https://youtu.be/-DdlGj0BxC4" , "video1" , "width=120,height=300,scrollbars=NO")
