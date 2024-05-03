@@ -7,7 +7,7 @@
     <title>Admin PEHTR</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-    <link rel="stylesheet" href="./STYLES/soporte.css">
+    <link rel="stylesheet" href="./STYLES/admin.css">
     <link rel="stylesheet" href="./STYLES/mq.css">
     <link rel="shortcut icon" href="./ASSETS/IMG/Logo ArachneCol Software/favicon-16x16.png">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -24,7 +24,8 @@ display=swap"
         <nav class="navbar navbar-expand-sm">
             <div class="container-fluid">
                 <div class="col-md-3 col-sm-1">
-                    <a class="navbar-brand" href="#"><img src="./ASSETS/IMG/Logo ArachneCol Software/iconoVectoresBlanco2.gif"
+                    <a class="navbar-brand" href="https://www.arachnecol.com"><img src="./ASSETS/IMG/Logo ArachneCol 
+Software/iconoVectoresBlanco2.gif"
                             width="30%"></a>
                 </div>
                 <div class="col-md-9 col-sm-11">
@@ -37,33 +38,19 @@ display=swap"
 
                         <ul class="navbar-nav">
                             <li class="nav-item">
-                                <a class="nav-link" href="./index.html">Inicio</a>
+                                <a class="nav-link" href="#">ArachneCol</a>
                             </li>
 
                             <li class="nav-item">
-                                <a class="nav-link" href="./index.html#queEs">¿Qué es el PEHTR?</a>
+                                <a class="nav-link" href="#">¿Quiénes somos?</a>
                             </li>
 
                             <li class="nav-item">
-                                <a class="nav-link" href="./index.html#estructura">Estructura</a>
+                                <a class="nav-link" href="#">Productos</a>
                             </li>
 
-                            <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                                    aria-expanded="false">
-                                    Contenido
-                                </a>
-                                <ul class="dropdown-menu">
-                                    <li><a class="dropdown-item" href="./index.html#mod1">Módulo 1 - Introducción</a></li>
-                                    <li><a class="dropdown-item" href="./index.html#mod2">Módulo 2 - Habilidades de
-                                            autonomía</a></li>
-                                    <li><a class="dropdown-item" href="./index.html#mod3">Módulo 3 - Habilidades para la
-                                            buena
-                                            gestión del tiempo</a></li>
-                                    <li><a class="dropdown-item" href="./index.html#mod4">Módulo 4 - Uso de herramientas
-                                            tecnológicas</a></li>
-                                </ul>
-                                
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Contáctanos</a>
                             </li>
                         </ul>
                     </div>
@@ -74,7 +61,7 @@ display=swap"
     <main>
         <br>
         <!-- BANNER -->
-        <section class="wrap1">
+        <section class="wrap4">
             <div class="wrap-texto">
                 <h2>ADMINISTRADOR PEHTR</h2>
                 <p>Administración de usuarios y Reportes de Soporte Técnico</p>
@@ -83,8 +70,8 @@ display=swap"
         <br>
         <section class="container mb-4 bg-light border border-black rounded-3">
             <h2>Administrador de usuarios PEHTR</h2>
-            <table class="table">
-                <thead>
+            <table class="table table-light table-hoover table-striped">
+                <thead class="tableForm">
                   <tr>
                     <th scope="col">Nombre Completo</th>
                     <th scope="col">Correo Electronico</th>
@@ -95,7 +82,7 @@ display=swap"
                   <tr>
                     <td>Mark</td>
                     <td>Otto@</td>
-                    <td><button type="button" class="btn btn-danger" id="eliminar" onclick="eliminarUsuario(event)"><i class="bi bi-trash-fill"></i> Eliminar</button>
+                    <td><button class="eliminar" type="button" class="btn btn-danger" id="eliminar" onclick="eliminarUsuario(event)"><i class="bi bi-trash-fill"></i> Eliminar</button>
                 
 
                     </td>

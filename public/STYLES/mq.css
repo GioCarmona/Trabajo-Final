@@ -56,6 +56,15 @@
     .botonCurso{
         width: 30%;
     }
+    th{
+        font-size: xx-small;
+    }
+    td{
+        font-size: xx-small;
+    }
+    .eliminar{
+        size: 10%;
+    }
 }
 @media screen and (max-width: 465px){ 
     .botonCurso{
